@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansSilo", "OrleansSilo\OrleansSilo.csproj", "{9671284F-6957-46B4-B247-425D64E7377E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AFEB1A1C-A781-4AB8-A7CF-40D812591530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dockerfiles", "Dockerfiles\Dockerfiles.csproj", "{B2C067B0-FC91-4775-BC2B-2FD99992D580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansWebApi", "OrleansWebApi\OrleansWebApi.csproj", "{0537FBAA-1230-4859-9D81-04561237B45B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains.Abstractions", "Grains.Abstractions\Grains.Abstractions.csproj", "{6AE03D34-C8E9-461E-8A9B-466BCAFC1E35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains.Implementations", "Grains.Implementations\Grains.Implementations.csproj", "{C3857107-127E-4192-BA00-22A97747204B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Abstractions", "Business.Abstractions\Business.Abstractions.csproj", "{C3A5B57D-5DEF-4D52-A151-09803364A151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9671284F-6957-46B4-B247-425D64E7377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9671284F-6957-46B4-B247-425D64E7377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9671284F-6957-46B4-B247-425D64E7377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9671284F-6957-46B4-B247-425D64E7377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEB1A1C-A781-4AB8-A7CF-40D812591530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEB1A1C-A781-4AB8-A7CF-40D812591530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEB1A1C-A781-4AB8-A7CF-40D812591530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEB1A1C-A781-4AB8-A7CF-40D812591530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C067B0-FC91-4775-BC2B-2FD99992D580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C067B0-FC91-4775-BC2B-2FD99992D580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C067B0-FC91-4775-BC2B-2FD99992D580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C067B0-FC91-4775-BC2B-2FD99992D580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0537FBAA-1230-4859-9D81-04561237B45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0537FBAA-1230-4859-9D81-04561237B45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0537FBAA-1230-4859-9D81-04561237B45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0537FBAA-1230-4859-9D81-04561237B45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE03D34-C8E9-461E-8A9B-466BCAFC1E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE03D34-C8E9-461E-8A9B-466BCAFC1E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE03D34-C8E9-461E-8A9B-466BCAFC1E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE03D34-C8E9-461E-8A9B-466BCAFC1E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3857107-127E-4192-BA00-22A97747204B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3857107-127E-4192-BA00-22A97747204B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3857107-127E-4192-BA00-22A97747204B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3857107-127E-4192-BA00-22A97747204B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A5B57D-5DEF-4D52-A151-09803364A151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A5B57D-5DEF-4D52-A151-09803364A151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A5B57D-5DEF-4D52-A151-09803364A151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A5B57D-5DEF-4D52-A151-09803364A151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60EC6063-B906-4BF5-800E-E65CAE5ED59D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  orleanssilo:
+    image: ${DOCKER_REGISTRY-}orleanssilo
+    build:
+      context: .
+      dockerfile: OrleansSilo/Dockerfile
+    ports:
+      - 9292:9292
+    expose:
+      - "111118"
+      - "300001"
+
+  orleanswebapi:
+    image: ${DOCKER_REGISTRY-}orleanswebapi
+    build:
+      context: .
+      dockerfile: OrleansWebApi/Dockerfile
+    ports:
+      - 80:80
+      - 443:443
+
+  db:
+    image: mysql
+    container_name: myssql-container
+    ports:
+      - 3306:3306
+    expose:
+      - "3306"
+    volumes:
+      - ./Dockerfiles/OrleansMysql/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1428010
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: OrleansV2
+      
